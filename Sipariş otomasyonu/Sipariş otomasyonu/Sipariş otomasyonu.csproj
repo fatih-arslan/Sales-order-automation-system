@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5209D44E-15B9-4B8A-B353-E37064A3A0A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sipariş_otomasyonu</RootNamespace>
+    <AssemblyName>Sipariş otomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kart.cs" />
+    <Compile Include="KartlaÖdeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KartlaÖdeme.Designer.cs">
+      <DependentUpon>KartlaÖdeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KontrolPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KontrolPaneli.Designer.cs">
+      <DependentUpon>KontrolPaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı Kaydı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı Kaydı.Designer.cs">
+      <DependentUpon>Kullanıcı Kaydı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullanıcıSiparişEkranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KullanıcıSiparişEkranı.Designer.cs">
+      <DependentUpon>KullanıcıSiparişEkranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı_Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı_Ekranı.Designer.cs">
+      <DependentUpon>Kullanıcı_Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanıcı_Girişi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanıcı_Girişi.Designer.cs">
+      <DependentUpon>Kullanıcı_Girişi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MusteriListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriListesi.Designer.cs">
+      <DependentUpon>MusteriListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Müşteri.cs" />
+    <Compile Include="Nakit.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sepet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sepet.Designer.cs">
+      <DependentUpon>Sepet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sipariş.cs" />
+    <Compile Include="SiparişDetayı.cs" />
+    <Compile Include="Sqlİşlemleri.cs" />
+    <Compile Include="YöneticiKaydı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YöneticiKaydı.Designer.cs">
+      <DependentUpon>YöneticiKaydı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YöneticiListesi.Designer.cs">
+      <DependentUpon>YöneticiListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YöneticiSiparişEkranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YöneticiSiparişEkranı.Designer.cs">
+      <DependentUpon>YöneticiSiparişEkranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yönetici_Girişi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yönetici_Girişi.Designer.cs">
+      <DependentUpon>Yönetici_Girişi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Çek.cs" />
+    <Compile Include="ÇekleÖdeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÇekleÖdeme.Designer.cs">
+      <DependentUpon>ÇekleÖdeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ödeme.cs" />
+    <Compile Include="ÖdemeYöntemi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÖdemeYöntemi.Designer.cs">
+      <DependentUpon>ÖdemeYöntemi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ürün.cs" />
+    <Compile Include="ÜrünEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÜrünEkleme.Designer.cs">
+      <DependentUpon>ÜrünEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ÜrünGüncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÜrünGüncelleme.Designer.cs">
+      <DependentUpon>ÜrünGüncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ÜrünListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÜrünListesi.Designer.cs">
+      <DependentUpon>ÜrünListesi.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KartlaÖdeme.resx">
+      <DependentUpon>KartlaÖdeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KontrolPaneli.resx">
+      <DependentUpon>KontrolPaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı Kaydı.resx">
+      <DependentUpon>Kullanıcı Kaydı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullanıcıSiparişEkranı.resx">
+      <DependentUpon>KullanıcıSiparişEkranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı_Ekranı.resx">
+      <DependentUpon>Kullanıcı_Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanıcı_Girişi.resx">
+      <DependentUpon>Kullanıcı_Girişi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriListesi.resx">
+      <DependentUpon>MusteriListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sepet.resx">
+      <DependentUpon>Sepet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YöneticiKaydı.resx">
+      <DependentUpon>YöneticiKaydı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YöneticiListesi.resx">
+      <DependentUpon>YöneticiListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YöneticiSiparişEkranı.resx">
+      <DependentUpon>YöneticiSiparişEkranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yönetici_Girişi.resx">
+      <DependentUpon>Yönetici_Girişi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÇekleÖdeme.resx">
+      <DependentUpon>ÇekleÖdeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÖdemeYöntemi.resx">
+      <DependentUpon>ÖdemeYöntemi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÜrünEkleme.resx">
+      <DependentUpon>ÜrünEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÜrünGüncelleme.resx">
+      <DependentUpon>ÜrünGüncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÜrünListesi.resx">
+      <DependentUpon>ÜrünListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddddd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tcl-tab-10s-32-gb-10-1-z.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xxx.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pspsps.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
