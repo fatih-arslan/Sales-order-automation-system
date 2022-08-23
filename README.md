@@ -1,4 +1,4 @@
-# Sipari-otomasyonu
+# Siparis-otomasyonu
 Projenin amacı, kayıtlı kullanıcılara ürün bilgilerine ulaşıp istedikleri üründen istedikleri adette sipariş verebilme ve yöneticilere ürün ekleme, çıkarma ve güncelleme imkanı sunan bir sipariş otomasyonu uygulaması geliştirmektir.Uygulama, visual studio geliştirme ortamı kullanılarak c# diliyle kodlanmıştır.
 
 # Programın Kullanımı ve Ekran Görüntüleri
