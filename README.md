@@ -10,5 +10,23 @@ Kullanıcı ekranında ürünlerle alakalı bilgileri görerek istedikleri ürü
 
 Yöneticiler kontrol paneli butonuna tıklayıp yönetici girişi yaptıktan sonra kontrol paneline ulaşabilirler.Kontrol panelinde ürünlerini, kayıtlı müşterilerini, siparişleri ve yöneticileri görebilirler ve yeni yönetici hesabı oluşturabilirler.
 ![Self Control](https://user-images.githubusercontent.com/80519936/186183933-92ea013e-e2d8-4fce-96fb-a83ff154e693.png)
+
+
+
+Kontrol panelinde ürün görüntüleme
+![products](https://user-images.githubusercontent.com/80519936/187436689-e4ade651-8b38-4131-9799-d13dae1af1e4.png)
+
+
+
+Sipariş listesi görüntüleme
+
+![siparisler](https://user-images.githubusercontent.com/80519936/187436899-9418ec43-61d9-4b7c-a3b8-5a52a79cf8a8.png)
+
+
+
+Kayıtlı müşterileri görüntüleme
+
+![musteriler](https://user-images.githubusercontent.com/80519936/187436948-f9419bfb-bd15-443e-9048-63dc1cab2afb.png)
+
 # UML Diyagramı
 ![UML](https://user-images.githubusercontent.com/80519936/186184256-799dd90d-c9a9-42bd-957e-5f4b705e72ba.png)
