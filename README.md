@@ -1,5 +1,5 @@
 # Siparis-otomasyonu
-Projenin amacı, kayıtlı kullanıcılara ürün bilgilerine ulaşıp istedikleri üründen istedikleri adette sipariş verebilme ve yöneticilere ürün ekleme, çıkarma ve güncelleme imkanı sunan bir sipariş otomasyonu uygulaması geliştirmektir.Uygulama, visual studio geliştirme ortamı kullanılarak c# dilinde kodlanmıştır.
+Projenin amacı, kayıtlı kullanıcılara ürün bilgilerine ulaşıp istedikleri üründen istedikleri adette sipariş verebilme ve yöneticilere ürün ekleme, çıkarma ve güncelleme imkanı sunan bir sipariş otomasyonu uygulaması geliştirmektir.Uygulama, Microsoft Visual Studio geliştirme ortamı kullanılarak c# dilinde kodlanmıştır.
 
 # Programın Kullanımı ve Ekran Görüntüleri
 İlk olarak karşımıza çıkan ana menüden kullanıcılar kayıt ol butonuna basarak kayıt yaptırabilir ve giriş yap butonuyla kayıtlı müşteri olarak giriş yaparak kullanıcı ekranına erişebilirler.
