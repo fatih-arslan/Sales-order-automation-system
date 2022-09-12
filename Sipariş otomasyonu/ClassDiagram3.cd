@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sipariş_otomasyonu.Müşteri">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAAAAAAAAAAAAAAAAAAAgEBAAACAAAAAAAAAA=</HashCode>
+      <FileName>Müşteri.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sipariş_otomasyonu.Çek">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Çek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sipariş_otomasyonu.Kart">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAACAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Kart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sipariş_otomasyonu.Nakit" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Nakit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sipariş_otomasyonu.Ödeme">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ödeme.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sipariş_otomasyonu.Sipariş">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAABAAAAAAgAAAAQABAEAAAAAEAAAAAAg=</HashCode>
+      <FileName>Sipariş.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ödeme" />
+      <Property Name="Müşteri1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sipariş_otomasyonu.SiparişDetayı">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAAAAAAAAAEAAAAAAAAAAAEAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>SiparişDetayı.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sipariş" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Sipariş_otomasyonu.Ürün">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAABAAAAAAAAAAAAAAwAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Ürün.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SiparişDetayı" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
